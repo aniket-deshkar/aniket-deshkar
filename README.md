@@ -13,28 +13,23 @@
 
 </div>
 
-## Hello, I’m Aniket
+<p align="center">
+  <img width="100%" src="./assets/agentic-engineering-map.svg" alt="Production AI engineering system map" />
+</p>
 
-### I build AI systems that can take useful action without becoming impossible to control.
+## Engineering profile
 
-I’m an **Assistant Lead AI Engineer** with **4.5+ years across backend and AI engineering**. My work sits between dependable platform engineering and intelligent orchestration: **Java and Spring** for durable business services, **Python and FastAPI** for agent runtimes, and the controls required to make both safe in real enterprise workflows.
+### I build AI systems that can take useful action—and still be trusted when the workflow gets complicated.
 
-Most of my recent work has focused on **Agentic AI, Generative AI, RAG, voice automation, and FinTech operations**. I enjoy the part after the prototype—when an agent needs typed tools, durable state, approvals, observability, retries, and clear ownership of every business decision.
+Hi, I’m Aniket—an **Assistant Lead AI Engineer** with **4.5+ years across backend and AI engineering**. I work on enterprise GenAI and Agentic AI systems, particularly where decisions involve real business rules, multiple data sources, external tools, and human accountability.
+
+My strongest work happens at the boundary between **AI orchestration and backend reliability**: Java/Spring services that own durable business state, Python/FastAPI runtimes that coordinate agents, and a control plane that keeps tool use authorized, observable, and recoverable. Recent areas include **FinTech operations, secure RAG, conversational analytics, voice automation, and approval-driven workflows**.
 
 > The model can reason and explain. The surrounding system must still enforce policy, protect data, and recover when something fails.
 
-## What I build
+## Selected systems
 
-| Area | Engineering focus |
-|---|---|
-| **Agent workflows** | Stateful multi-agent systems with specialized roles, conditional routing, memory, tool execution, retries, and human-in-the-loop checkpoints |
-| **AI platform controls** | Tool authorization, policy enforcement, guardrails, approval gates, model gateways, audit evidence, and structured evaluation |
-| **Knowledge systems** | Hybrid RAG, vector search, document intelligence, grounded responses, controlled SQL generation, and enterprise knowledge retrieval |
-| **Backend platforms** | Java/Spring and Python/FastAPI services, event-driven integration, durable workflows, secure APIs, and production observability |
-
-## Featured engineering work
-
-### 01 · Enterprise agent platform
+### Flagship platform · Enterprise decision operations
 
 #### [DecisionOps AI](https://github.com/aniket-deshkar/enterprise-agentic-operations-platform)
 
@@ -42,7 +37,7 @@ A policy-controlled decision-operations platform where deterministic services ow
 
 `Java 21` · `Python` · `Kafka` · `PostgreSQL` · `OPA` · `OpenTelemetry`
 
-### 02 · Java + AI infrastructure
+### Java + AI infrastructure
 
 | Project | Purpose |
 |---|---|
@@ -50,7 +45,7 @@ A policy-controlled decision-operations platform where deterministic services ow
 | [**Java MCP Gateway**](https://github.com/aniket-deshkar/java-mcp-gateway) | A controlled MCP tool gateway with explicit exposure, authorization hooks, quotas, health decisions, sanitized failures, audit events, and telemetry |
 | [**Spring AI Durable Runtime**](https://github.com/aniket-deshkar/spring-ai-durable-runtime) | A checkpointed Java runtime for model and tool workflows that can pause, restart, resume, fail, or cancel without repeating completed steps |
 
-### 03 · Applied agent systems
+### Applied agent systems
 
 | Project | Problem being solved |
 |---|---|
@@ -58,7 +53,7 @@ A policy-controlled decision-operations platform where deterministic services ow
 | [**AI Voice Appointment Assistant**](https://github.com/aniket-deshkar/voice-agent) | Separates natural voice conversations from typed, validated appointment state changes so the assistant cannot make unauthorized updates |
 | [**Agentic Payment Reconciliation**](https://github.com/aniket-deshkar/agentic-payment-ops-reconciliation) | Combines deterministic reconciliation with evidence-grounded explanations, persisted traces, and explicit human review |
 
-## Technology map
+## Technical range
 
 | Layer | Tools and technologies |
 |---|---|
@@ -69,7 +64,7 @@ A policy-controlled decision-operations platform where deterministic services ow
 | **Platform engineering** | Docker · OAuth2/OIDC · RBAC · OPA · GitHub Actions |
 | **Observability** | OpenTelemetry · Prometheus · Grafana · Langfuse · LangSmith |
 
-## How I approach production AI
+## Production principles
 
 - **Keep authority outside the model.** Business rules, permissions, calculations, and state transitions remain deterministic.
 - **Give agents narrow, typed capabilities.** Every tool has a clear contract, limited scope, and an observable result.
