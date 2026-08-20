@@ -15,18 +15,18 @@
 
 </div>
 
-## `whoami`
+## About me
 
-I build production-oriented **Generative AI and Agentic AI systems** at the intersection of intelligent orchestration and dependable backend engineering. With **4.5+ years across Java, Python, cloud, and AI engineering**, I focus on systems that can reason, use tools, recover safely, involve humans at the right moments, and leave a complete audit trail.
+### Building AI systems that can act, explain, and recover.
 
-```yaml
-role: Assistant Lead AI Engineer
-focus: [Agentic AI, GenAI Platforms, Backend Engineering, FinTech]
-building: [Multi-Agent Workflows, RAG Systems, AI Governance, Voice Agents]
-principles: [Typed Boundaries, Deterministic Controls, Human Approval, Observability]
-```
+I’m an **Assistant Lead AI Engineer** with **4.5+ years across backend and AI engineering**. I bridge **Java/Spring platform engineering** with **Python-based agent runtimes** to turn GenAI prototypes into governed, observable systems for enterprise and FinTech operations.
 
-> I treat the model as one component of the system—not the system itself.
+| 🧠 **ORCHESTRATE** | 🛡️ **GOVERN** | ⚙️ **OPERATE** |
+|:---|:---|:---|
+| Stateful multi-agent workflows with specialized agents, routing, memory, retries, and tool execution | Typed tool contracts, deterministic policies, human approvals, guardrails, and audit evidence | Checkpointing, event-driven integration, tracing, metrics, evaluation, and failure recovery |
+| **LangGraph · CrewAI · Agno · MCP** | **HITL · RBAC · Policy Controls** | **Kafka · OpenTelemetry · Langfuse** |
+
+> **Current focus:** Enterprise agent runtimes · Java + AI architectures · Secure RAG · FinTech automation · Voice AI
 
 ## Engineering toolkit
 
@@ -66,17 +66,6 @@ principles: [Typed Boundaries, Deterministic Controls, Human Approval, Observabi
 - **Agentic where it helps:** models plan, retrieve, explain, and coordinate through typed, allow-listed tools.
 - **Human when risk demands it:** high-impact actions pause for explicit review and approval.
 - **Observable by default:** traces, metrics, checkpoints, and audit records make behaviour explainable and recoverable.
-
-## GitHub snapshot
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=aniket-deshkar&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&theme=tokyonight" alt="Aniket's GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aniket-deshkar&layout=compact&langs_count=8&hide_border=true&theme=tokyonight" alt="Most used languages" />
-
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=aniket-deshkar&bg_color=1A1B27&color=70A5FD&line=BF91F3&point=38BDF8&area=true&hide_border=true" alt="Contribution activity graph" />
-
-</div>
 
 ## Let’s build something dependable
 
