@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">Aniket Deshkar technology landscape</title>
+  <desc id="desc">Technologies grouped across backend engineering, agentic AI, data and messaging, cloud integrations, and observability.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1120"/><stop offset="1" stop-color="#172554"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#60a5fa" stroke-opacity="0.05"/></pattern>
+  </defs>
+  <rect width="1200" height="500" rx="24" fill="url(#bg)"/><rect width="1200" height="500" rx="24" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="498" rx="23" fill="none" stroke="#334155" stroke-width="2"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="50" y="57" fill="#f8fafc" font-size="30" font-weight="800">Technology landscape</text>
+    <text x="50" y="84" fill="#94a3b8" font-size="15">The tools I use to take an AI workflow from orchestration to reliable operation.</text>
+
+    <g>
+      <rect x="50" y="120" width="204" height="318" rx="18" fill="#102033" stroke="#38bdf8" stroke-opacity="0.48"/>
+      <circle cx="77" cy="151" r="7" fill="#38bdf8"/>
+      <text x="95" y="157" fill="#38bdf8" font-size="13" font-weight="800" letter-spacing="1">BACKEND</text>
+      <text x="74" y="203" fill="#f8fafc" font-size="18" font-weight="800">Java 21</text>
+      <text x="74" y="238" fill="#cbd5e1" font-size="16">Spring Boot</text>
+      <text x="74" y="273" fill="#cbd5e1" font-size="16">Python 3.12</text>
+      <text x="74" y="308" fill="#cbd5e1" font-size="16">FastAPI</text>
+      <text x="74" y="343" fill="#cbd5e1" font-size="16">REST · SSE</text>
+      <text x="74" y="378" fill="#cbd5e1" font-size="16">Pydantic</text>
+      <text x="74" y="414" fill="#64748b" font-size="11" font-weight="700">DURABLE SERVICES</text>
+
+      <rect x="274" y="120" width="204" height="318" rx="18" fill="#211a38" stroke="#a78bfa" stroke-opacity="0.5"/>
+      <circle cx="301" cy="151" r="7" fill="#a78bfa"/>
+      <text x="319" y="157" fill="#a78bfa" font-size="13" font-weight="800" letter-spacing="1">AGENTIC AI</text>
+      <text x="298" y="203" fill="#f8fafc" font-size="18" font-weight="800">LangGraph</text>
+      <text x="298" y="238" fill="#ddd6fe" font-size="16">LangChain</text>
+      <text x="298" y="273" fill="#ddd6fe" font-size="16">CrewAI · Agno</text>
+      <text x="298" y="308" fill="#ddd6fe" font-size="16">MCP · RAG</text>
+      <text x="298" y="343" fill="#ddd6fe" font-size="16">Structured output</text>
+      <text x="298" y="378" fill="#ddd6fe" font-size="16">Human approval</text>
+      <text x="298" y="414" fill="#7c6aa6" font-size="11" font-weight="700">ORCHESTRATION</text>
+
+      <rect x="498" y="120" width="204" height="318" rx="18" fill="#102820" stroke="#22c55e" stroke-opacity="0.48"/>
+      <circle cx="525" cy="151" r="7" fill="#4ade80"/>
+      <text x="543" y="157" fill="#4ade80" font-size="13" font-weight="800" letter-spacing="1">DATA + EVENTS</text>
+      <text x="522" y="203" fill="#f8fafc" font-size="18" font-weight="800">PostgreSQL</text>
+      <text x="522" y="238" fill="#dcfce7" font-size="16">MongoDB</text>
+      <text x="522" y="273" fill="#dcfce7" font-size="16">pgvector · Qdrant</text>
+      <text x="522" y="308" fill="#dcfce7" font-size="16">Redis</text>
+      <text x="522" y="343" fill="#dcfce7" font-size="16">Kafka</text>
+      <text x="522" y="378" fill="#dcfce7" font-size="16">SQLAlchemy</text>
+      <text x="522" y="414" fill="#4d8063" font-size="11" font-weight="700">STATE + MESSAGING</text>
+
+      <rect x="722" y="120" width="204" height="318" rx="18" fill="#2b2012" stroke="#f59e0b" stroke-opacity="0.48"/>
+      <circle cx="749" cy="151" r="7" fill="#fbbf24"/>
+      <text x="767" y="157" fill="#fbbf24" font-size="13" font-weight="800" letter-spacing="1">PLATFORMS</text>
+      <text x="746" y="203" fill="#f8fafc" font-size="18" font-weight="800">AWS Bedrock</text>
+      <text x="746" y="238" fill="#fef3c7" font-size="16">OpenAI</text>
+      <text x="746" y="273" fill="#fef3c7" font-size="16">Portkey</text>
+      <text x="746" y="308" fill="#fef3c7" font-size="16">Vapi · Twilio</text>
+      <text x="746" y="343" fill="#fef3c7" font-size="16">Docker</text>
+      <text x="746" y="378" fill="#fef3c7" font-size="16">OAuth2 · OPA</text>
+      <text x="746" y="414" fill="#8b6c32" font-size="11" font-weight="700">MODEL + INTEGRATION</text>
+
+      <rect x="946" y="120" width="204" height="318" rx="18" fill="#281629" stroke="#f472b6" stroke-opacity="0.48"/>
+      <circle cx="973" cy="151" r="7" fill="#f472b6"/>
+      <text x="991" y="157" fill="#f472b6" font-size="13" font-weight="800" letter-spacing="1">OBSERVABILITY</text>
+      <text x="970" y="203" fill="#f8fafc" font-size="18" font-weight="800">OpenTelemetry</text>
+      <text x="970" y="238" fill="#fce7f3" font-size="16">Langfuse</text>
+      <text x="970" y="273" fill="#fce7f3" font-size="16">LangSmith</text>
+      <text x="970" y="308" fill="#fce7f3" font-size="16">Prometheus</text>
+      <text x="970" y="343" fill="#fce7f3" font-size="16">Grafana</text>
+      <text x="970" y="378" fill="#fce7f3" font-size="16">Audit evidence</text>
+      <text x="970" y="414" fill="#8e5273" font-size="11" font-weight="700">TRACE + EVALUATE</text>
+    </g>
+    <text x="1150" y="474" fill="#64748b" font-size="12" text-anchor="end">BACKEND → AGENTS → DATA → PLATFORMS → OPERATIONS</text>
+  </g>
+</svg>
