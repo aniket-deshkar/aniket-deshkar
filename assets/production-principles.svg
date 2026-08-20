@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Production AI engineering principles</title>
+  <desc id="desc">Five principles covering deterministic authority, typed tools, human control, durable execution, and explainable operation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1120"/><stop offset="1" stop-color="#1e1b4b"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset="0.5" stop-color="#a78bfa"/><stop offset="1" stop-color="#4ade80"/></linearGradient>
+  </defs>
+  <rect width="1200" height="390" rx="24" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="388" rx="23" fill="none" stroke="#334155" stroke-width="2"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="50" y="57" fill="#f8fafc" font-size="30" font-weight="800">How I engineer production AI</text>
+    <text x="50" y="84" fill="#94a3b8" font-size="15">Practical constraints that keep an intelligent workflow reliable after the demo.</text>
+    <rect x="50" y="103" width="1100" height="2" rx="1" fill="url(#line)"/>
+
+    <g>
+      <rect x="50" y="135" width="204" height="200" rx="17" fill="#102033" stroke="#38bdf8" stroke-opacity="0.45"/>
+      <text x="72" y="169" fill="#38bdf8" font-size="13" font-weight="800">01</text>
+      <text x="72" y="202" fill="#f8fafc" font-size="17" font-weight="800">Authority stays</text><text x="72" y="225" fill="#f8fafc" font-size="17" font-weight="800">deterministic.</text>
+      <text x="72" y="261" fill="#cbd5e1" font-size="13">Rules, permissions, money,</text><text x="72" y="281" fill="#cbd5e1" font-size="13">and state transitions remain</text><text x="72" y="301" fill="#cbd5e1" font-size="13">outside the model.</text>
+
+      <rect x="274" y="135" width="204" height="200" rx="17" fill="#17203a" stroke="#60a5fa" stroke-opacity="0.45"/>
+      <text x="296" y="169" fill="#60a5fa" font-size="13" font-weight="800">02</text>
+      <text x="296" y="202" fill="#f8fafc" font-size="17" font-weight="800">Tools are narrow</text><text x="296" y="225" fill="#f8fafc" font-size="17" font-weight="800">and typed.</text>
+      <text x="296" y="261" fill="#cbd5e1" font-size="13">Every capability has a clear</text><text x="296" y="281" fill="#cbd5e1" font-size="13">contract, scope, identity,</text><text x="296" y="301" fill="#cbd5e1" font-size="13">and observable outcome.</text>
+
+      <rect x="498" y="135" width="204" height="200" rx="17" fill="#211a38" stroke="#a78bfa" stroke-opacity="0.48"/>
+      <text x="520" y="169" fill="#a78bfa" font-size="13" font-weight="800">03</text>
+      <text x="520" y="202" fill="#f8fafc" font-size="17" font-weight="800">People control</text><text x="520" y="225" fill="#f8fafc" font-size="17" font-weight="800">high-impact actions.</text>
+      <text x="520" y="261" fill="#ddd6fe" font-size="13">Risky steps pause for an</text><text x="520" y="281" fill="#ddd6fe" font-size="13">explicit decision instead of</text><text x="520" y="301" fill="#ddd6fe" font-size="13">hiding risk in automation.</text>
+
+      <rect x="722" y="135" width="204" height="200" rx="17" fill="#2a1730" stroke="#f472b6" stroke-opacity="0.45"/>
+      <text x="744" y="169" fill="#f472b6" font-size="13" font-weight="800">04</text>
+      <text x="744" y="202" fill="#f8fafc" font-size="17" font-weight="800">Execution survives</text><text x="744" y="225" fill="#f8fafc" font-size="17" font-weight="800">interruption.</text>
+      <text x="744" y="261" fill="#fce7f3" font-size="13">Checkpoints, idempotency,</text><text x="744" y="281" fill="#fce7f3" font-size="13">budgets, and deliberate retry</text><text x="744" y="301" fill="#fce7f3" font-size="13">make recovery predictable.</text>
+
+      <rect x="946" y="135" width="204" height="200" rx="17" fill="#102820" stroke="#22c55e" stroke-opacity="0.45"/>
+      <text x="968" y="169" fill="#4ade80" font-size="13" font-weight="800">05</text>
+      <text x="968" y="202" fill="#f8fafc" font-size="17" font-weight="800">Every run tells</text><text x="968" y="225" fill="#f8fafc" font-size="17" font-weight="800">its own story.</text>
+      <text x="968" y="261" fill="#dcfce7" font-size="13">Evidence, traces, metrics,</text><text x="968" y="281" fill="#dcfce7" font-size="13">and audit records explain</text><text x="968" y="301" fill="#dcfce7" font-size="13">what happened and why.</text>
+    </g>
+    <text x="50" y="366" fill="#64748b" font-size="12">RELIABILITY IS PART OF THE PRODUCT, NOT A CLEANUP PHASE.</text>
+  </g>
+</svg>
