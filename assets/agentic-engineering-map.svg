@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="610" viewBox="0 0 1200 610" role="img" aria-labelledby="title desc">
+  <title id="title">Aniket Deshkar production AI engineering map</title>
+  <desc id="desc">An animated system map showing agent runtimes, governance controls, backend services, data systems, and observability.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1120"/>
+      <stop offset="0.52" stop-color="#111827"/>
+      <stop offset="1" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="0.52" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#172033" stop-opacity="0.98"/>
+      <stop offset="1" stop-color="#101827" stop-opacity="0.98"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#60a5fa" stroke-opacity="0.065" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#60a5fa"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="610" rx="24" fill="url(#background)"/>
+  <rect width="1200" height="610" rx="24" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="608" rx="23" fill="none" stroke="#334155" stroke-width="2"/>
+
+  <circle cx="54" cy="40" r="5" fill="#22c55e">
+    <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="70" y="45" fill="#94a3b8" font-size="13" font-family="Inter,Segoe UI,Arial,sans-serif" letter-spacing="2">SYSTEMS PROFILE / ONLINE</text>
+  <text x="60" y="94" fill="#f8fafc" font-size="32" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif">Engineering production AI systems</text>
+  <text x="60" y="124" fill="#94a3b8" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">Reasoning where it helps. Deterministic control where it matters.</text>
+  <rect x="60" y="143" width="1080" height="2" rx="1" fill="url(#accent)" opacity="0.8"/>
+
+  <!-- Agent runtime -->
+  <g>
+    <rect x="60" y="174" width="330" height="246" rx="18" fill="url(#card)" stroke="#38bdf8" stroke-opacity="0.42"/>
+    <rect x="60" y="174" width="7" height="246" rx="3" fill="#38bdf8"/>
+    <text x="88" y="208" fill="#38bdf8" font-size="13" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif" letter-spacing="1.7">01 / AGENT RUNTIME</text>
+    <text x="88" y="240" fill="#f8fafc" font-size="21" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif">Plan. Retrieve. Act.</text>
+    <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">
+      <rect x="88" y="262" width="274" height="36" rx="9" fill="#0f2d40" stroke="#0ea5e9" stroke-opacity="0.5"/>
+      <circle cx="108" cy="280" r="5" fill="#38bdf8"/>
+      <text x="122" y="285" fill="#dbeafe">Stateful orchestration &amp; routing</text>
+      <rect x="88" y="308" width="274" height="36" rx="9" fill="#0f2d40" stroke="#0ea5e9" stroke-opacity="0.5"/>
+      <circle cx="108" cy="326" r="5" fill="#38bdf8"/>
+      <text x="122" y="331" fill="#dbeafe">Typed tools, MCP &amp; RAG</text>
+      <rect x="88" y="354" width="274" height="36" rx="9" fill="#0f2d40" stroke="#0ea5e9" stroke-opacity="0.5"/>
+      <circle cx="108" cy="372" r="5" fill="#38bdf8"/>
+      <text x="122" y="377" fill="#dbeafe">Voice, events &amp; specialist agents</text>
+    </g>
+  </g>
+
+  <!-- Control plane -->
+  <g>
+    <rect x="435" y="174" width="330" height="246" rx="18" fill="url(#card)" stroke="#a78bfa" stroke-opacity="0.48"/>
+    <rect x="435" y="174" width="7" height="246" rx="3" fill="#a78bfa"/>
+    <text x="463" y="208" fill="#a78bfa" font-size="13" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif" letter-spacing="1.7">02 / CONTROL PLANE</text>
+    <text x="463" y="240" fill="#f8fafc" font-size="21" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif">Govern every action.</text>
+    <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">
+      <rect x="463" y="262" width="274" height="36" rx="9" fill="#251b3d" stroke="#8b5cf6" stroke-opacity="0.55"/>
+      <circle cx="483" cy="280" r="5" fill="#a78bfa"/>
+      <text x="497" y="285" fill="#ede9fe">Policy, identity &amp; authorization</text>
+      <rect x="463" y="308" width="274" height="36" rx="9" fill="#251b3d" stroke="#8b5cf6" stroke-opacity="0.55"/>
+      <circle cx="483" cy="326" r="5" fill="#a78bfa"/>
+      <text x="497" y="331" fill="#ede9fe">Human approval &amp; guardrails</text>
+      <rect x="463" y="354" width="274" height="36" rx="9" fill="#251b3d" stroke="#8b5cf6" stroke-opacity="0.55"/>
+      <circle cx="483" cy="372" r="5" fill="#a78bfa"/>
+      <text x="497" y="377" fill="#ede9fe">Evidence, audit &amp; evaluation</text>
+    </g>
+  </g>
+
+  <!-- Platform core -->
+  <g>
+    <rect x="810" y="174" width="330" height="246" rx="18" fill="url(#card)" stroke="#22c55e" stroke-opacity="0.42"/>
+    <rect x="810" y="174" width="7" height="246" rx="3" fill="#22c55e"/>
+    <text x="838" y="208" fill="#4ade80" font-size="13" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif" letter-spacing="1.7">03 / PLATFORM CORE</text>
+    <text x="838" y="240" fill="#f8fafc" font-size="21" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif">Persist. Integrate. Recover.</text>
+    <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">
+      <rect x="838" y="262" width="274" height="36" rx="9" fill="#112d26" stroke="#22c55e" stroke-opacity="0.48"/>
+      <circle cx="858" cy="280" r="5" fill="#4ade80"/>
+      <text x="872" y="285" fill="#dcfce7">Java/Spring &amp; Python services</text>
+      <rect x="838" y="308" width="274" height="36" rx="9" fill="#112d26" stroke="#22c55e" stroke-opacity="0.48"/>
+      <circle cx="858" cy="326" r="5" fill="#4ade80"/>
+      <text x="872" y="331" fill="#dcfce7">Kafka, APIs &amp; durable workflows</text>
+      <rect x="838" y="354" width="274" height="36" rx="9" fill="#112d26" stroke="#22c55e" stroke-opacity="0.48"/>
+      <circle cx="858" cy="372" r="5" fill="#4ade80"/>
+      <text x="872" y="377" fill="#dcfce7">SQL, NoSQL &amp; vector stores</text>
+    </g>
+  </g>
+
+  <!-- Connections and animated events -->
+  <path id="flowA" d="M390 297 C405 297 420 297 435 297" fill="none" stroke="#60a5fa" stroke-width="2" stroke-dasharray="5 5" marker-end="url(#arrow)"/>
+  <path id="flowB" d="M765 297 C780 297 795 297 810 297" fill="none" stroke="#60a5fa" stroke-width="2" stroke-dasharray="5 5" marker-end="url(#arrow)"/>
+  <circle r="5" fill="#ffffff" filter="url(#glow)">
+    <animateMotion dur="2.2s" repeatCount="indefinite"><mpath href="#flowA"/></animateMotion>
+  </circle>
+  <circle r="5" fill="#ffffff" filter="url(#glow)">
+    <animateMotion dur="2.2s" begin="0.7s" repeatCount="indefinite"><mpath href="#flowB"/></animateMotion>
+  </circle>
+
+  <!-- Observability rail -->
+  <g>
+    <rect x="60" y="452" width="1080" height="94" rx="16" fill="#0b1424" stroke="#475569"/>
+    <text x="88" y="482" fill="#94a3b8" font-size="12" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif" letter-spacing="1.7">OBSERVE &amp; RECOVER</text>
+    <text x="88" y="516" fill="#f8fafc" font-size="17" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif">OpenTelemetry</text>
+    <circle cx="260" cy="510" r="3" fill="#38bdf8"/>
+    <text x="278" y="516" fill="#f8fafc" font-size="17" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif">Langfuse</text>
+    <circle cx="390" cy="510" r="3" fill="#38bdf8"/>
+    <text x="408" y="516" fill="#f8fafc" font-size="17" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif">Prometheus</text>
+    <circle cx="548" cy="510" r="3" fill="#38bdf8"/>
+    <text x="566" y="516" fill="#f8fafc" font-size="17" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif">Grafana</text>
+    <circle cx="680" cy="510" r="3" fill="#38bdf8"/>
+    <text x="698" y="516" fill="#f8fafc" font-size="17" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif">Checkpoints</text>
+    <circle cx="840" cy="510" r="3" fill="#38bdf8"/>
+    <text x="858" y="516" fill="#f8fafc" font-size="17" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif">Audit trails</text>
+  </g>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="0.6">
+    <rect x="60" y="565" width="198" height="28" rx="14" fill="#0c4a6e"/>
+    <text x="83" y="584" fill="#bae6fd">DETERMINISTIC STATE</text>
+    <rect x="270" y="565" width="166" height="28" rx="14" fill="#312e81"/>
+    <text x="294" y="584" fill="#e0e7ff">TYPED TOOLS</text>
+    <rect x="448" y="565" width="188" height="28" rx="14" fill="#4c1d95"/>
+    <text x="471" y="584" fill="#ede9fe">HUMAN CONTROL</text>
+    <rect x="648" y="565" width="218" height="28" rx="14" fill="#14532d"/>
+    <text x="672" y="584" fill="#dcfce7">TRACEABLE DECISIONS</text>
+    <text x="1138" y="584" fill="#64748b" text-anchor="end">ANIKET.DESHKAR</text>
+  </g>
+</svg>
