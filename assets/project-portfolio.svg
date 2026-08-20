@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="810" viewBox="0 0 1200 810" role="img" aria-labelledby="title desc">
+  <title id="title">Aniket Deshkar project portfolio</title>
+  <desc id="desc">Twelve projects across enterprise AI platforms, Java and agent infrastructure, and FinTech agent systems.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1120"/><stop offset="0.55" stop-color="#111827"/><stop offset="1" stop-color="#172554"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#60a5fa" stroke-opacity="0.05"/></pattern>
+  </defs>
+  <rect width="1200" height="810" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="810" rx="24" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="808" rx="23" fill="none" stroke="#334155" stroke-width="2"/>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="50" y="55" fill="#f8fafc" font-size="30" font-weight="800">Project portfolio</text>
+    <text x="50" y="82" fill="#94a3b8" font-size="15">Enterprise platforms, reusable AI infrastructure, and applied FinTech agents.</text>
+
+    <!-- Row 1 -->
+    <text x="50" y="126" fill="#38bdf8" font-size="13" font-weight="800" letter-spacing="1.7">ENTERPRISE &amp; APPLIED PLATFORMS</text>
+    <line x1="330" y1="121" x2="1150" y2="121" stroke="#38bdf8" stroke-opacity="0.28"/>
+
+    <g>
+      <rect x="50" y="145" width="260" height="155" rx="16" fill="#102033" stroke="#38bdf8" stroke-opacity="0.48"/>
+      <text x="70" y="176" fill="#38bdf8" font-size="12" font-weight="800">01</text>
+      <text x="70" y="207" fill="#f8fafc" font-size="18" font-weight="800">DecisionOps AI</text>
+      <text x="70" y="234" fill="#cbd5e1" font-size="13">Governed enterprise decisions</text><text x="70" y="253" fill="#cbd5e1" font-size="13">with approvals and audit evidence.</text>
+      <text x="70" y="280" fill="#64748b" font-size="11" font-weight="700">JAVA · PYTHON · KAFKA · OPA</text>
+
+      <rect x="330" y="145" width="260" height="155" rx="16" fill="#102033" stroke="#38bdf8" stroke-opacity="0.48"/>
+      <text x="350" y="176" fill="#38bdf8" font-size="12" font-weight="800">02</text>
+      <text x="350" y="207" fill="#f8fafc" font-size="18" font-weight="800">CareerForge</text>
+      <text x="350" y="234" fill="#cbd5e1" font-size="13">Resume-aware interview prep</text><text x="350" y="253" fill="#cbd5e1" font-size="13">and job-search operations backend.</text>
+      <text x="350" y="280" fill="#64748b" font-size="11" font-weight="700">FASTAPI · PGVECTOR · CELERY</text>
+
+      <rect x="610" y="145" width="260" height="155" rx="16" fill="#102033" stroke="#38bdf8" stroke-opacity="0.48"/>
+      <text x="630" y="176" fill="#38bdf8" font-size="12" font-weight="800">03</text>
+      <text x="630" y="207" fill="#f8fafc" font-size="17" font-weight="800">FinTech Agentic Console</text>
+      <text x="630" y="234" fill="#cbd5e1" font-size="13">One UI for evidence, traces,</text><text x="630" y="253" fill="#cbd5e1" font-size="13">analysis, and human review.</text>
+      <text x="630" y="280" fill="#64748b" font-size="11" font-weight="700">NEXT.JS · 12 AGENT SERVICES</text>
+
+      <rect x="890" y="145" width="260" height="155" rx="16" fill="#102033" stroke="#38bdf8" stroke-opacity="0.48"/>
+      <text x="910" y="176" fill="#38bdf8" font-size="12" font-weight="800">04</text>
+      <text x="910" y="207" fill="#f8fafc" font-size="17" font-weight="800">Voice Appointment AI</text>
+      <text x="910" y="234" fill="#cbd5e1" font-size="13">Natural voice conversations with</text><text x="910" y="253" fill="#cbd5e1" font-size="13">backend-owned appointment state.</text>
+      <text x="910" y="280" fill="#64748b" font-size="11" font-weight="700">VAPI · FASTAPI · TWILIO</text>
+    </g>
+
+    <!-- Row 2 -->
+    <text x="50" y="346" fill="#a78bfa" font-size="13" font-weight="800" letter-spacing="1.7">JAVA + AGENT INFRASTRUCTURE</text>
+    <line x1="330" y1="341" x2="1150" y2="341" stroke="#a78bfa" stroke-opacity="0.3"/>
+
+    <g>
+      <rect x="50" y="365" width="260" height="155" rx="16" fill="#211a38" stroke="#a78bfa" stroke-opacity="0.52"/>
+      <text x="70" y="396" fill="#a78bfa" font-size="12" font-weight="800">05</text>
+      <text x="70" y="427" fill="#f8fafc" font-size="17" font-weight="800">Spring AI Governance</text>
+      <text x="70" y="454" fill="#ddd6fe" font-size="13">Fail-closed policy and approval</text><text x="70" y="473" fill="#ddd6fe" font-size="13">boundary for AI tool execution.</text>
+      <text x="70" y="500" fill="#7c6aa6" font-size="11" font-weight="700">SPRING AI · SECURITY · METRICS</text>
+
+      <rect x="330" y="365" width="260" height="155" rx="16" fill="#211a38" stroke="#a78bfa" stroke-opacity="0.52"/>
+      <text x="350" y="396" fill="#a78bfa" font-size="12" font-weight="800">06</text>
+      <text x="350" y="427" fill="#f8fafc" font-size="18" font-weight="800">Java MCP Gateway</text>
+      <text x="350" y="454" fill="#ddd6fe" font-size="13">Secure tool discovery, routing,</text><text x="350" y="473" fill="#ddd6fe" font-size="13">authorization, quotas, and audit.</text>
+      <text x="350" y="500" fill="#7c6aa6" font-size="11" font-weight="700">JAVA · MCP · OPENTELEMETRY</text>
+
+      <rect x="610" y="365" width="260" height="155" rx="16" fill="#211a38" stroke="#a78bfa" stroke-opacity="0.52"/>
+      <text x="630" y="396" fill="#a78bfa" font-size="12" font-weight="800">07</text>
+      <text x="630" y="422" fill="#f8fafc" font-size="16" font-weight="800">Spring AI Durable</text><text x="630" y="443" fill="#f8fafc" font-size="16" font-weight="800">Runtime</text>
+      <text x="630" y="468" fill="#ddd6fe" font-size="13">Checkpointed workflows that pause,</text><text x="630" y="487" fill="#ddd6fe" font-size="13">resume, restart, and recover safely.</text>
+      <text x="630" y="509" fill="#7c6aa6" font-size="11" font-weight="700">JAVA · JDBC · POSTGRESQL</text>
+
+      <rect x="890" y="365" width="260" height="155" rx="16" fill="#211a38" stroke="#a78bfa" stroke-opacity="0.52"/>
+      <text x="910" y="396" fill="#a78bfa" font-size="12" font-weight="800">08</text>
+      <text x="910" y="422" fill="#f8fafc" font-size="16" font-weight="800">Agent Resilience</text><text x="910" y="443" fill="#f8fafc" font-size="16" font-weight="800">Runtime</text>
+      <text x="910" y="468" fill="#ddd6fe" font-size="13">Retries, fallbacks, loop detection,</text><text x="910" y="487" fill="#ddd6fe" font-size="13">deadlines, token, and cost budgets.</text>
+      <text x="910" y="509" fill="#7c6aa6" font-size="11" font-weight="700">JAVA · RETRY · BUDGET GUARDS</text>
+    </g>
+
+    <!-- Row 3 -->
+    <text x="50" y="566" fill="#4ade80" font-size="13" font-weight="800" letter-spacing="1.7">FINTECH AGENT SYSTEMS</text>
+    <line x1="280" y1="561" x2="1150" y2="561" stroke="#4ade80" stroke-opacity="0.28"/>
+
+    <g>
+      <rect x="50" y="585" width="260" height="155" rx="16" fill="#102820" stroke="#22c55e" stroke-opacity="0.48"/>
+      <text x="70" y="616" fill="#4ade80" font-size="12" font-weight="800">09</text>
+      <text x="70" y="647" fill="#f8fafc" font-size="16" font-weight="800">Payment Reconciliation</text>
+      <text x="70" y="674" fill="#dcfce7" font-size="13">Deterministic exception matching</text><text x="70" y="693" fill="#dcfce7" font-size="13">with evidence-grounded explanations.</text>
+      <text x="70" y="720" fill="#4d8063" font-size="11" font-weight="700">LANGGRAPH · FASTAPI · HITL</text>
+
+      <rect x="330" y="585" width="260" height="155" rx="16" fill="#102820" stroke="#22c55e" stroke-opacity="0.48"/>
+      <text x="350" y="616" fill="#4ade80" font-size="12" font-weight="800">10</text>
+      <text x="350" y="647" fill="#f8fafc" font-size="16" font-weight="800">Fraud Risk Copilot</text>
+      <text x="350" y="674" fill="#dcfce7" font-size="13">Reproducible risk signals and a</text><text x="350" y="693" fill="#dcfce7" font-size="13">prioritized analyst review queue.</text>
+      <text x="350" y="720" fill="#4d8063" font-size="11" font-weight="700">POLICY · EVIDENCE · REVIEW</text>
+
+      <rect x="610" y="585" width="260" height="155" rx="16" fill="#102820" stroke="#22c55e" stroke-opacity="0.48"/>
+      <text x="630" y="616" fill="#4ade80" font-size="12" font-weight="800">11</text>
+      <text x="630" y="647" fill="#f8fafc" font-size="16" font-weight="800">AML / KYC Investigation</text>
+      <text x="630" y="674" fill="#dcfce7" font-size="13">Traceable KYC and transaction-risk</text><text x="630" y="693" fill="#dcfce7" font-size="13">analysis with reviewer disposition.</text>
+      <text x="630" y="720" fill="#4d8063" font-size="11" font-weight="700">RISK SCORING · AUDIT · HITL</text>
+
+      <rect x="890" y="585" width="260" height="155" rx="16" fill="#102820" stroke="#22c55e" stroke-opacity="0.48"/>
+      <text x="910" y="616" fill="#4ade80" font-size="12" font-weight="800">12</text>
+      <text x="910" y="647" fill="#f8fafc" font-size="16" font-weight="800">Payment Failure RCA</text>
+      <text x="910" y="674" fill="#dcfce7" font-size="13">Ranks competing failure hypotheses</text><text x="910" y="693" fill="#dcfce7" font-size="13">without overstating causality.</text>
+      <text x="910" y="720" fill="#4d8063" font-size="11" font-weight="700">EVIDENCE · SCORING · TRACE</text>
+    </g>
+
+    <text x="50" y="782" fill="#64748b" font-size="12">Every project is linked below the visual portfolio.</text>
+    <text x="1150" y="782" fill="#64748b" font-size="12" text-anchor="end">ANIKET.DESHKAR / GITHUB</text>
+  </g>
+</svg>
