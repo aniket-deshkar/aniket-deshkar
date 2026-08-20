@@ -11,70 +11,80 @@
   <a href="https://github.com/aniket-deshkar?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-Explore%20Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub repositories" /></a>
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=aniket-deshkar&style=flat-square&color=0EA5E9&label=PROFILE+VIEWS" alt="Profile views" />
-
 </div>
 
-## About me
+## Hello, I’m Aniket
 
-### Building AI systems that can act, explain, and recover.
+### I build AI systems that can take useful action without becoming impossible to control.
 
-I’m an **Assistant Lead AI Engineer** with **4.5+ years across backend and AI engineering**. I bridge **Java/Spring platform engineering** with **Python-based agent runtimes** to turn GenAI prototypes into governed, observable systems for enterprise and FinTech operations.
+I’m an **Assistant Lead AI Engineer** with **4.5+ years across backend and AI engineering**. My work sits between dependable platform engineering and intelligent orchestration: **Java and Spring** for durable business services, **Python and FastAPI** for agent runtimes, and the controls required to make both safe in real enterprise workflows.
 
-| 🧠 **ORCHESTRATE** | 🛡️ **GOVERN** | ⚙️ **OPERATE** |
-|:---|:---|:---|
-| Stateful multi-agent workflows with specialized agents, routing, memory, retries, and tool execution | Typed tool contracts, deterministic policies, human approvals, guardrails, and audit evidence | Checkpointing, event-driven integration, tracing, metrics, evaluation, and failure recovery |
-| **LangGraph · CrewAI · Agno · MCP** | **HITL · RBAC · Policy Controls** | **Kafka · OpenTelemetry · Langfuse** |
+Most of my recent work has focused on **Agentic AI, Generative AI, RAG, voice automation, and FinTech operations**. I enjoy the part after the prototype—when an agent needs typed tools, durable state, approvals, observability, retries, and clear ownership of every business decision.
 
-> **Current focus:** Enterprise agent runtimes · Java + AI architectures · Secure RAG · FinTech automation · Voice AI
+> The model can reason and explain. The surrounding system must still enforce policy, protect data, and recover when something fails.
 
-## Engineering toolkit
+## What I build
 
-<div align="center">
+| Area | Engineering focus |
+|---|---|
+| **Agent workflows** | Stateful multi-agent systems with specialized roles, conditional routing, memory, tool execution, retries, and human-in-the-loop checkpoints |
+| **AI platform controls** | Tool authorization, policy enforcement, guardrails, approval gates, model gateways, audit evidence, and structured evaluation |
+| **Knowledge systems** | Hybrid RAG, vector search, document intelligence, grounded responses, controlled SQL generation, and enterprise knowledge retrieval |
+| **Backend platforms** | Java/Spring and Python/FastAPI services, event-driven integration, durable workflows, secure APIs, and production observability |
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-111827?style=for-the-badge&logo=anthropic&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+## Featured engineering work
 
-</div>
+### 01 · Enterprise agent platform
 
-## Selected engineering work
+#### [DecisionOps AI](https://github.com/aniket-deshkar/enterprise-agentic-operations-platform)
 
-| Project | What it demonstrates | Core stack |
-|---|---|---|
-| [**DecisionOps AI**](https://github.com/aniket-deshkar/enterprise-agentic-operations-platform) | Policy-controlled enterprise decisions with narrow AI tools, approvals, events, and durable audit evidence | Java 21, Python, Kafka, OPA, PostgreSQL, OpenTelemetry |
-| [**Spring AI Governance**](https://github.com/aniket-deshkar/spring-ai-governance) | Fail-closed authorization, policy, approval, audit, and metrics enforcement for AI tool execution | Java, Spring AI, Spring Security, Micrometer |
-| [**Java MCP Gateway**](https://github.com/aniket-deshkar/java-mcp-gateway) | Secure discovery and routing across MCP servers with allow-lists, quotas, health checks, and telemetry | Java, MCP, OpenTelemetry |
-| [**CareerForge**](https://github.com/aniket-deshkar/interview-prep-platform-api) | Resume-aware interview preparation and job tracking with vector retrieval and durable background work | FastAPI, PostgreSQL, pgvector, Redis, Celery |
-| [**AI Voice Appointment Assistant**](https://github.com/aniket-deshkar/voice-agent) | Guarded voice automation where typed backend rules own every appointment state change | FastAPI, Vapi, Twilio, SQLAlchemy, Langfuse |
-| [**Agentic Payment Reconciliation**](https://github.com/aniket-deshkar/agentic-payment-ops-reconciliation) | Deterministic payment reconciliation with evidence-grounded explanations and human review | LangGraph, FastAPI, SQLAlchemy, Docker |
+A policy-controlled decision-operations platform where deterministic services own business state and narrowly scoped AI tools assist pricing, procurement, compliance, finance, and operational workflows. Human approvals, Kafka events, and audit evidence are part of the architecture—not later additions.
 
-## How I design AI systems
+`Java 21` · `Python` · `Kafka` · `PostgreSQL` · `OPA` · `OpenTelemetry`
 
-- **Deterministic where it matters:** policy, calculations, authorization, and state transitions stay outside the model.
-- **Agentic where it helps:** models plan, retrieve, explain, and coordinate through typed, allow-listed tools.
-- **Human when risk demands it:** high-impact actions pause for explicit review and approval.
-- **Observable by default:** traces, metrics, checkpoints, and audit records make behaviour explainable and recoverable.
+### 02 · Java + AI infrastructure
 
-## Let’s build something dependable
+| Project | Purpose |
+|---|---|
+| [**Spring AI Governance**](https://github.com/aniket-deshkar/spring-ai-governance) | A fail-closed security boundary for Spring AI tool calls, with identity-aware authorization, typed argument rules, approval decisions, audit events, and metrics |
+| [**Java MCP Gateway**](https://github.com/aniket-deshkar/java-mcp-gateway) | A controlled MCP tool gateway with explicit exposure, authorization hooks, quotas, health decisions, sanitized failures, audit events, and telemetry |
+| [**Spring AI Durable Runtime**](https://github.com/aniket-deshkar/spring-ai-durable-runtime) | A checkpointed Java runtime for model and tool workflows that can pause, restart, resume, fail, or cancel without repeating completed steps |
 
-I’m always interested in thoughtful conversations around **agent runtimes, AI governance, Java + AI architectures, RAG, FinTech automation, and production-grade backend systems**.
+### 03 · Applied agent systems
+
+| Project | Problem being solved |
+|---|---|
+| [**CareerForge**](https://github.com/aniket-deshkar/interview-prep-platform-api) | Brings resume-aware interview preparation, semantic retrieval, application tracking, and provider integrations into one production-oriented backend |
+| [**AI Voice Appointment Assistant**](https://github.com/aniket-deshkar/voice-agent) | Separates natural voice conversations from typed, validated appointment state changes so the assistant cannot make unauthorized updates |
+| [**Agentic Payment Reconciliation**](https://github.com/aniket-deshkar/agentic-payment-ops-reconciliation) | Combines deterministic reconciliation with evidence-grounded explanations, persisted traces, and explicit human review |
+
+## Technology map
+
+| Layer | Tools and technologies |
+|---|---|
+| **Languages & APIs** | Java 21 · Python 3.12 · Spring Boot · FastAPI · REST · SSE · Pydantic |
+| **Agentic AI** | LangGraph · LangChain · CrewAI · Agno · MCP · RAG · structured outputs |
+| **Models & platforms** | OpenAI · AWS Bedrock · Portkey · Vapi · Twilio |
+| **Data & messaging** | PostgreSQL · MongoDB · pgvector · Qdrant · Redis · Kafka · SQLAlchemy |
+| **Platform engineering** | Docker · OAuth2/OIDC · RBAC · OPA · GitHub Actions |
+| **Observability** | OpenTelemetry · Prometheus · Grafana · Langfuse · LangSmith |
+
+## How I approach production AI
+
+- **Keep authority outside the model.** Business rules, permissions, calculations, and state transitions remain deterministic.
+- **Give agents narrow, typed capabilities.** Every tool has a clear contract, limited scope, and an observable result.
+- **Design for interruption.** Workflows checkpoint progress, retry deliberately, and resume without repeating completed side effects.
+- **Put people at the right control points.** High-impact actions pause for review instead of hiding risk behind automation.
+- **Make behaviour explainable.** Traces, metrics, evidence, and audit records should tell the story of every run.
+
+## Let’s connect
+
+I’m always happy to discuss **agent runtimes, AI governance, Java + AI architecture, secure RAG, FinTech automation, voice AI, and production backend systems**.
 
 <div align="center">
   <a href="https://www.linkedin.com/in/aniket-deshkar"><strong>Connect on LinkedIn</strong></a>
   &nbsp;•&nbsp;
-  <a href="https://github.com/aniket-deshkar?tab=repositories"><strong>Explore my work</strong></a>
+  <a href="https://github.com/aniket-deshkar?tab=repositories"><strong>Explore all repositories</strong></a>
 </div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0F172A,50:0EA5E9,100:7C3AED" alt="Footer" />
