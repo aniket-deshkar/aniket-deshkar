@@ -1,68 +1,56 @@
-# Aniket Deshkar
+<p align="center">
+  <img src="./assets/profile-header.svg" width="100%" alt="Aniket Deshkar — AI and backend engineering. Agents, APIs, and the systems behind them." />
+</p>
 
-**AI Engineer · Java & Python · Backend systems**
+<p align="center">
+  <a href="https://www.linkedin.com/in/aniket-deshkar">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="https://github.com/aniket-deshkar?tab=repositories">Code</a>
+</p>
 
-[LinkedIn](https://www.linkedin.com/in/aniket-deshkar) · [Repositories](https://github.com/aniket-deshkar?tab=repositories)
+I build backend systems and AI agents. My background is in Java, Spring Boot, and microservices; these days, much of my work is in Python, agent orchestration, retrieval, and AWS.
 
-I’m an Assistant Lead AI Engineer with 4.5+ years across backend and AI engineering. I started with Java, Spring Boot, and microservices, and now work on AI agents, retrieval systems, and voice workflows—mostly with Python and AWS.
+I’m an Assistant Lead AI Engineer, with experience across payments, fleet operations, recruitment, and voice automation. The problems I keep coming back to are practical ones: giving an agent the right context, controlling what it can change, and making its behavior traceable when something goes wrong.
 
-My experience spans international payments, fleet operations, recruitment automation, and conversational analytics. I’m particularly interested in the engineering around a model: how it gets reliable context, which tools it can use, when a person needs to step in, and how to investigate a failed run.
+## What I’m building
 
-## Selected projects
+**[Settlement Sentinel](https://github.com/aniket-deshkar/settlement-sentinel)**  
+Investigating settlement mismatches with Google ADK and Gemini. Agents retrieve evidence through MCP and consult a separate policy service through A2A. A human reviews the adjustment before it reaches a simulated ledger. Built around synthetic data, with a FastAPI operator UI and OpenTelemetry tracing.
 
-These are personal projects where I explore those problems in code. Each repository documents its setup, design, and current scope.
+**[Spring AI Governance](https://github.com/aniket-deshkar/spring-ai-governance)**  
+Authorization and approval checks at the point where a Spring AI tool executes. The library wraps tool callbacks, applies Spring Security and argument policies, and records decisions through audit events and Micrometer. Denied or pending calls never reach the underlying tool.
 
-### [Settlement Sentinel](https://github.com/aniket-deshkar/settlement-sentinel)
-A settlement-investigation demo that collects evidence through MCP, consults a separate policy agent through A2A, and sends a proposed adjustment for human review. Uses synthetic data and a simulated ledger.
+**[Java MCP Gateway](https://github.com/aniket-deshkar/java-mcp-gateway)**  
+A common entry point for tools exposed by multiple MCP server adapters. Namespaced discovery, explicit tool access, quotas, health checks, and tracing live in the gateway, with transport details left to adapters.
 
-**Google ADK · Gemini · MCP · A2A · FastAPI · OpenTelemetry**
+**[Voice Appointment Assistant](https://github.com/aniket-deshkar/voice-agent)**  
+Appointment reminders using Vapi and a FastAPI backend. Conversations can confirm, cancel, or request a callback; application code owns the state transitions and handles duplicate provider events.
 
-### [Spring AI Governance](https://github.com/aniket-deshkar/spring-ai-governance)
-A Java library that checks authorization, argument rules, and approval requirements before a Spring AI tool can execute. Includes audit events and tests for rejected and pending calls.
-
-**Java · Spring AI · Spring Security · Micrometer**
-
-### [Java MCP Gateway](https://github.com/aniket-deshkar/java-mcp-gateway)
-An embeddable gateway for exposing a controlled catalog of tools across MCP server adapters. Handles tool naming, allow-lists, authorization, quotas, and health checks before forwarding a call.
-
-**Java · MCP · OpenTelemetry**
-
-### [AI Voice Appointment Assistant](https://github.com/aniket-deshkar/voice-agent)
-An appointment-reminder assistant with confirmation, cancellation, rescheduling requests, and human callbacks. FastAPI validates appointment changes; voice-provider callbacks are checked for duplicate events.
-
-**Python · FastAPI · Vapi · Twilio · SQLAlchemy · Langfuse**
-
-### [DecisionOps AI](https://github.com/aniket-deshkar/enterprise-agentic-operations-platform)
-An ongoing exploration of business workflows combining Java services, Python agent components, policy checks, human approvals, and event-driven audit records. Implemented domain slices sit alongside a documented roadmap for the remaining platform work.
-
-**Java · Python · Kafka · PostgreSQL · OPA · OpenTelemetry**
+**[DecisionOps AI](https://github.com/aniket-deshkar/enterprise-agentic-operations-platform)**  
+A larger, ongoing project connecting Java business services and Python agent components through policy checks, approvals, and Kafka events. I’m working through service boundaries, transactional outboxes, and audit records across business workflows. The repository tracks implemented slices and the remaining platform work.
 
 <details>
-<summary>More projects</summary>
+<summary>A couple more</summary>
 
-- [**Agentic Payment Reconciliation**](https://github.com/aniket-deshkar/agentic-payment-ops-reconciliation) — Matches transaction and settlement fixtures using deterministic rules, then uses LangGraph to assemble evidence, explanations, and review records.
-- [**CareerForge**](https://github.com/aniket-deshkar/interview-prep-platform-api) — An interview-preparation and job-tracking backend with PostgreSQL, vector retrieval, and background workers. Provider integrations and resume processing have documented next steps.
+- **[Payment Reconciliation](https://github.com/aniket-deshkar/agentic-payment-ops-reconciliation)** — Deterministic matching of transaction fixtures, with LangGraph assembling evidence and explanations for review.
+- **[CareerForge](https://github.com/aniket-deshkar/interview-prep-platform-api)** — A backend for interview practice and application tracking, using FastAPI, PostgreSQL, pgvector, and Celery. Resume processing and provider integrations remain work in progress.
 
 </details>
 
-## Tools I work with
+## What I work with
 
-| Area | Main tools |
-| --- | --- |
-| Backend | Java, Spring Boot, Python, FastAPI |
-| AI & retrieval | LangGraph, LangChain, MCP, Amazon Bedrock, MongoDB Atlas Vector Search |
-| Data & messaging | PostgreSQL, MongoDB, Redis, Kafka |
-| Cloud & observability | AWS, Azure, OpenTelemetry, Langfuse, Prometheus, Grafana |
+**Java, Python, Spring Boot, and FastAPI** are my core tools. For AI workflows, I work with LangGraph, LangChain, MCP, and Amazon Bedrock. My data and messaging stack includes PostgreSQL, MongoDB, Redis, and Kafka.
 
-I’m currently exploring Google ADK, Gemini, and A2A through Settlement Sentinel.
+AWS is my main cloud platform, with Azure experience as well. I use OpenTelemetry, Langfuse, Prometheus, and Grafana to follow requests and agent runs across services. I’m extending that work into Google ADK, Gemini, and A2A.
 
-## How I approach the work
+<details>
+<summary>Certifications</summary>
 
-- Keep calculations, permissions, and state changes in application code.
-- Give agents a small set of well-defined tools and explicit boundaries.
-- Make approval decisions durable and retries safe.
-- Use traces and tests to understand failures across the whole workflow.
+- AWS Certified Cloud Practitioner
+- AWS Certified AI Practitioner
+- Microsoft Certified: Azure Fundamentals (AZ-900)
 
-**Certifications:** AWS Certified Cloud Practitioner · AWS Certified AI Practitioner · Microsoft Certified: Azure Fundamentals (AZ-900)
+</details>
 
-Happy to compare notes on Java + AI, agent orchestration, retrieval, or payment systems. [Connect with me on LinkedIn](https://www.linkedin.com/in/aniket-deshkar).
+---
+
+If you’re working on agent infrastructure, Java + AI, or payment systems, I’d be glad to [compare notes](https://www.linkedin.com/in/aniket-deshkar).
