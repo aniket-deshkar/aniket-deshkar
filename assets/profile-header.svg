@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="240" viewBox="0 0 960 240" role="img" aria-labelledby="title description">
-  <title id="title">Aniket Deshkar — AI and backend engineering</title>
-  <desc id="description">A dark banner with a softly animated network of connected nodes. Java, Python, and distributed systems.</desc>
+  <title id="title">Aniket Deshkar — Software engineering</title>
+  <desc id="description">A dark banner with a softly animated network of connected nodes.</desc>
   <defs>
     <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1220"/><stop offset="1" stop-color="#142638"/></linearGradient>
     <linearGradient id="accent"><stop stop-color="#72e4cd"/><stop offset="1" stop-color="#88baff"/></linearGradient>
@@ -16,10 +16,10 @@
   <rect width="960" height="240" rx="16" fill="url(#bg)"/>
   <rect x="32" y="40" width="3" height="160" rx="1.5" fill="url(#accent)"/>
   <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif">
-    <text x="58" y="70" fill="#72e4cd" font-size="12" letter-spacing="2.5">AI &amp; BACKEND ENGINEERING</text>
+    <text x="58" y="70" fill="#72e4cd" font-size="12" letter-spacing="2.5">SOFTWARE ENGINEERING</text>
     <text x="56" y="126" fill="#f0f5fb" font-size="43" font-weight="650">Aniket Deshkar</text>
-    <text x="58" y="163" fill="#c0ccdc" font-size="17">Agents, APIs, and the systems behind them.</text>
-    <text x="58" y="197" fill="#91a4ba" font-size="13" letter-spacing="1">JAVA / PYTHON / DISTRIBUTED SYSTEMS</text>
+    <text x="58" y="163" fill="#c0ccdc" font-size="17">Turning ideas into working software.</text>
+    <text x="58" y="197" fill="#91a4ba" font-size="13" letter-spacing="1">DESIGN / BUILD / LEARN</text>
   </g>
   <g fill="none" stroke="#314b64" stroke-width="1.5">
     <path d="M657 120 L737 58 L822 120 L902 58 M657 120 L737 182 L822 120 L902 182 M737 58 L737 182 M822 120 L902 120"/>
