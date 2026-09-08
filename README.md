@@ -1,49 +1,94 @@
 <p align="center">
-  <img src="./assets/profile-header.svg" width="100%" alt="Aniket Deshkar — AI and backend engineering. Agents, APIs, and the systems behind them." />
+  <img src="./assets/profile-header.svg" width="100%" alt="Aniket Deshkar — Software engineering. Turning ideas into working software." />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/aniket-deshkar">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="https://github.com/aniket-deshkar?tab=repositories">Code</a>
+  <a href="https://www.linkedin.com/in/aniket-deshkar"><strong>Connect</strong></a>
+  &nbsp;&nbsp; / &nbsp;&nbsp;
+  <a href="#a-few-things-ive-built"><strong>Explore my work</strong></a>
+  &nbsp;&nbsp; / &nbsp;&nbsp;
+  <a href="https://github.com/aniket-deshkar?tab=repositories"><strong>All repositories</strong></a>
 </p>
 
-I build backend systems and AI agents. My background is in Java, Spring Boot, and microservices; these days, much of my work is in Python, agent orchestration, retrieval, and AWS.
+### Hi, I’m Aniket.
 
-I’m an Assistant Lead AI Engineer, with experience across payments, fleet operations, recruitment, and voice automation. The problems I keep coming back to are practical ones: giving an agent the right context, controlling what it can change, and making its behavior traceable when something goes wrong.
+I’m a software engineer, currently working as an Assistant Lead AI Engineer. I enjoy taking a problem from an early idea to something people can use: figuring out the design, building it, and working through the details that make it reliable.
 
-## What I’m building
+My background spans backend development, AI applications, and cloud systems. I like working across those boundaries, learning unfamiliar tools when the problem calls for them, and understanding how the pieces fit together.
 
-**[Settlement Sentinel](https://github.com/aniket-deshkar/settlement-sentinel)**  
-Investigating settlement mismatches with Google ADK and Gemini. Agents retrieve evidence through MCP and consult a separate policy service through A2A. A human reviews the adjustment before it reaches a simulated ledger. Built around synthetic data, with a FastAPI operator UI and OpenTelemetry tracing.
+This is where I build out ideas and put design decisions into practice. You’ll find applications, libraries, and experiments, with code and notes on how they work.
 
-**[Spring AI Governance](https://github.com/aniket-deshkar/spring-ai-governance)**  
-Authorization and approval checks at the point where a Spring AI tool executes. The library wraps tool callbacks, applies Spring Security and argument policies, and records decisions through audit events and Micrometer. Denied or pending calls never reach the underlying tool.
+<img src="./assets/section-divider.svg" width="100%" height="24" alt="" />
 
-**[Java MCP Gateway](https://github.com/aniket-deshkar/java-mcp-gateway)**  
-A common entry point for tools exposed by multiple MCP server adapters. Namespaced discovery, explicit tool access, quotas, health checks, and tracing live in the gateway, with transport details left to adapters.
+## A few things I’ve built
 
-**[Voice Appointment Assistant](https://github.com/aniket-deshkar/voice-agent)**  
-Appointment reminders using Vapi and a FastAPI backend. Conversations can confirm, cancel, or request a callback; application code owns the state transitions and handles duplicate provider events.
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/aniket-deshkar/settlement-sentinel">Settlement Sentinel</a></h3>
+<p>An investigation workflow that gathers evidence, consults another agent, and asks a person to review the result. Uses synthetic settlement data and a simulated ledger.</p>
+<p><sub>Multi-agent workflows · Human review · Tracing</sub></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/aniket-deshkar/enterprise-agentic-operations-platform">DecisionOps AI</a></h3>
+<p>An ongoing platform project exploring how services, policies, approvals, and events fit together across business workflows. Implemented slices and remaining work are documented.</p>
+<p><sub>Service design · Event processing · Audit history</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/aniket-deshkar/spring-ai-governance">Spring AI Governance</a></h3>
+<p>A library that checks permissions and approval requirements before an AI tool runs. Rejected or pending requests cannot execute the underlying action.</p>
+<p><sub>Authorization · Tool execution · Policy checks</sub></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/aniket-deshkar/java-mcp-gateway">Java MCP Gateway</a></h3>
+<p>A shared entry point for tools from multiple MCP server adapters, with explicit access rules, quotas, health checks, and tracing.</p>
+<p><sub>Tool discovery · Routing · Access control</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/aniket-deshkar/voice-agent">Voice Appointment Assistant</a></h3>
+<p>A voice application for appointment reminders and follow-up requests. The backend validates changes and handles duplicate provider events.</p>
+<p><sub>Voice interfaces · APIs · State management</sub></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/aniket-deshkar/interview-prep-platform-api">CareerForge</a></h3>
+<p>A backend for interview preparation and application tracking, with retrieval and background jobs. Resume processing and provider integrations are still in progress.</p>
+<p><sub>Application development · Retrieval · Background jobs</sub></p>
+</td>
+</tr>
+</table>
 
-**[DecisionOps AI](https://github.com/aniket-deshkar/enterprise-agentic-operations-platform)**  
-A larger, ongoing project connecting Java business services and Python agent components through policy checks, approvals, and Kafka events. I’m working through service boundaries, transactional outboxes, and audit records across business workflows. The repository tracks implemented slices and the remaining platform work.
+<p align="right"><a href="https://github.com/aniket-deshkar?tab=repositories">Browse the rest →</a></p>
+
+<img src="./assets/section-divider.svg" width="100%" height="24" alt="" />
+
+## How I work
+
+I start by understanding the problem and the constraints. I care about clear interfaces, readable code, and tests that cover what happens when things fail. I’d rather make a small version work end to end, then expand it with evidence from using it.
 
 <details>
-<summary>A couple more</summary>
+<summary><strong>Tools and experience</strong></summary>
 
-- **[Payment Reconciliation](https://github.com/aniket-deshkar/agentic-payment-ops-reconciliation)** — Deterministic matching of transaction fixtures, with LangGraph assembling evidence and explanations for review.
-- **[CareerForge](https://github.com/aniket-deshkar/interview-prep-platform-api)** — A backend for interview practice and application tracking, using FastAPI, PostgreSQL, pgvector, and Celery. Resume processing and provider integrations remain work in progress.
+<br />
+
+These are tools I’ve worked with across different projects:
+
+| | |
+| --- | --- |
+| Languages & frameworks | Java, Python, Spring Boot, FastAPI |
+| AI applications | LangGraph, LangChain, MCP, Amazon Bedrock, Google ADK, Gemini |
+| Data & messaging | PostgreSQL, MongoDB, Redis, Kafka |
+| Cloud & operations | AWS, Azure, OpenTelemetry, Langfuse, Prometheus, Grafana |
 
 </details>
 
-## What I work with
-
-**Java, Python, Spring Boot, and FastAPI** are my core tools. For AI workflows, I work with LangGraph, LangChain, MCP, and Amazon Bedrock. My data and messaging stack includes PostgreSQL, MongoDB, Redis, and Kafka.
-
-AWS is my main cloud platform, with Azure experience as well. I use OpenTelemetry, Langfuse, Prometheus, and Grafana to follow requests and agent runs across services. I’m extending that work into Google ADK, Gemini, and A2A.
-
 <details>
-<summary>Certifications</summary>
+<summary><strong>Certifications</strong></summary>
+
+<br />
 
 - AWS Certified Cloud Practitioner
 - AWS Certified AI Practitioner
@@ -51,6 +96,8 @@ AWS is my main cloud platform, with Azure experience as well. I use OpenTelemetr
 
 </details>
 
----
+<img src="./assets/section-divider.svg" width="100%" height="24" alt="" />
 
-If you’re working on agent infrastructure, Java + AI, or payment systems, I’d be glad to [compare notes](https://www.linkedin.com/in/aniket-deshkar).
+### Always happy to meet people building interesting things.
+
+Open to exchanging ideas, collaborating, or learning something new. [Say hello on LinkedIn →](https://www.linkedin.com/in/aniket-deshkar)
