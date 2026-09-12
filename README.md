@@ -1,62 +1,122 @@
-# Hi, I'm Aniket 👋
+<div align="center">
 
-**Forward-Deployed / Applied AI Engineer** — I turn ambiguous enterprise
-workflows into governed AI systems, combining agentic orchestration with
-reliable backend engineering.
+<img src="./assets/profile-header.svg" width="100%" alt="Aniket Deshkar — Applied AI and backend systems" />
 
-📍 India · 4.5+ years across enterprise AI, cross-border payments, healthcare
-supply chains, and regulated software
+<br />
 
-[![GitHub](https://img.shields.io/badge/GitHub-aniket--deshkar-181717?logo=github)](https://github.com/aniket-deshkar)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-aniket--deshkar-0A66C2?logo=linkedin)](https://linkedin.com/in/aniket-deshkar)
-[![Email](https://img.shields.io/badge/Email-aniket.deshkar%40proton.me-6D4AFF?logo=protonmail)](mailto:aniket.deshkar@proton.me)
+[![GitHub](https://img.shields.io/badge/GitHub-aniket--deshkar-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff)](https://github.com/aniket-deshkar)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-aniket--deshkar-0d1117?style=for-the-badge&logo=linkedin&logoColor=58a6ff)](https://linkedin.com/in/aniket-deshkar)
+[![Email](https://img.shields.io/badge/Email-Let's_talk-0d1117?style=for-the-badge&logo=protonmail&logoColor=bc8cff)](mailto:aniket.deshkar@proton.me)
 
----
+`India` &nbsp; `4.5+ years` &nbsp; `Enterprise AI` &nbsp; `Regulated software`
 
-### 🔧 What I work on
+</div>
 
-- **Agentic systems** — stateful multi-step agents with narrow tool contracts,
-  deterministic policy checks, and human approval before consequential actions
-- **Retrieval & evaluation** — retrieval pipelines measured rather than assumed:
-  embedding and vector-store comparison, evaluation harnesses, regression checks
-- **Backend platforms** — high-throughput services with idempotency,
-  outbox/inbox messaging, caching strategy, and load shedding built in
-- **Reliability & observability** — traces, metrics, and replayable execution
-  records so production behavior stays explainable
-- **Regulated domains** — auditability-first systems with append-only evidence
-  and bounded automation in finance and healthcare workflows
+<br />
 
-### 📌 Pinned work
+## `01` About
 
-| Project                                                                                    | What it does                                                                                                                           |
-| ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
-| [DecisionOps AI](https://github.com/aniket-deshkar/enterprise-agentic-operations-platform) | Multi-domain decision operations: policy-controlled AI tools, human approval gates, tenant-aware authorization, durable audit evidence |
-| [Settlement Sentinel](https://github.com/aniket-deshkar/settlement-sentinel)               | Synthetic settlement investigation with evidence retrieval, remote policy validation, and bounded adjustments                          |
-| [Custom Agentic RAG](https://github.com/aniket-deshkar/Custom_Agentic_RAG)                 | Scratch-built framework for comparing vector databases and model backends in agentic retrieval                                         |
-| [AI Voice Appointment Assistant](https://github.com/aniket-deshkar/voice-agent)            | Outbound voice-agent platform for appointment flows with validated state changes and safe webhook handling                             |
-| [Java MCP Gateway](https://github.com/aniket-deshkar/java-mcp-gateway)                     | Controlled discovery, policy enforcement, and routing across MCP servers from one Java gateway                                         |
-| [Agent Policy Engine](https://github.com/aniket-deshkar/agent-policy-engine)               | Deterministic local authorization and approval enforcement for agent tool calls                                                        |
-| [Spring AI Durable Runtime](https://github.com/aniket-deshkar/spring-ai-durable-runtime)   | Checkpoint, pause, resume, and recover long-running Java AI workflows                                                                  |
-| [Agent Run Replay](https://github.com/aniket-deshkar/agent-run-replay)                     | Record, inspect, diff, and deterministically replay agent executions                                                                   |
-| [Agent Contract Test](https://github.com/aniket-deshkar/agent-contract-test)               | Framework-neutral contract and regression testing for agents and their tools                                                           |
-| [Spring Outbox Inbox](https://github.com/aniket-deshkar/spring-outbox-inbox)               | Reliable event publication and duplicate-safe consumption for Spring services                                                          |
-| [Spring Load Shedding](https://github.com/aniket-deshkar/spring-load-shedding)             | Per-route admission control, bounded queues, and overload metrics for Spring                                                           |
-| [Agent Memory Lifecycle](https://github.com/aniket-deshkar/agent-memory-lifecycle)         | Scoped SQLite persistence, expiry, deduplication, and retrieval budgets for agent memory                                               |
+> ### I turn ambiguous enterprise workflows into governed AI systems.
 
-### 🧰 Toolkit
+I work across the full delivery path—from use-case discovery and architecture to
+implementation, evaluation, and production handoff. My experience spans
+enterprise AI, cross-border payments, healthcare supply chains, and other
+regulated environments.
 
-`Java 8/11/17/21` `Python 3.12` `TypeScript` `SQL` · `LangGraph` `LangChain`
-`LlamaIndex` `MCP` `RAG` `RAGAS` · `Spring Boot` `FastAPI` `Kafka` `Celery`
-`Redis` · `PostgreSQL` `pgvector` `Qdrant` `MongoDB` `DynamoDB`
-`Elasticsearch` · `AWS` `Docker` `GitHub Actions` `OpenTelemetry` `Prometheus`
-`Grafana` · `React` `Next.js` `Angular`
+I care about the parts that make intelligent systems dependable: narrow tool
+contracts, measurable retrieval quality, human approval for consequential
+actions, durable audit evidence, and observability that explains failures.
 
-### 🎓 Credentials
+<br />
 
-- Microsoft Certified: Azure Fundamentals (AZ-900)
-- AWS Certified AI Practitioner (AIF-C01)
-- B.E., Electronics & Telecommunication Engineering — RTM Nagpur University
+<img src="./assets/delivery-loop.svg" width="100%" alt="Delivery loop: discover, design, build, evaluate, operate" />
 
----
+<br />
 
-📬 Reach me at [aniket.deshkar@proton.me](mailto:aniket.deshkar@proton.me)
+<img src="./assets/section-divider.svg" width="100%" alt="" />
+
+## `02` Engineering focus
+
+| | Discipline | How I approach it |
+|:--:|---|---|
+| `01` | **Agentic systems** | Stateful multi-step agents, narrow tool contracts, deterministic policy checks, and human approval before consequential actions. |
+| `02` | **Retrieval & evaluation** | Retrieval pipelines measured rather than assumed—with evaluation harnesses, vector-store comparisons, and regression checks. |
+| `03` | **Backend platforms** | High-throughput services built around idempotency, durable messaging, caching strategy, and graceful load shedding. |
+| `04` | **Reliability & governance** | Traces, metrics, replayable execution records, tenant-aware authorization, and append-only audit evidence. |
+
+<br />
+
+<img src="./assets/section-divider.svg" width="100%" alt="" />
+
+## `03` Selected systems
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/aniket-deshkar/enterprise-agentic-operations-platform">DecisionOps AI ↗</a></h3>
+<strong>Enterprise agentic operations</strong>
+<p>Policy-controlled AI tools, approval gates, tenant-aware authorization, and durable audit evidence—designed for decisions that must remain explainable.</p>
+<code>Java 21</code> <code>Spring Boot</code> <code>LangGraph</code> <code>Kafka</code> <code>Qdrant</code> <code>OPA</code>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/aniket-deshkar/settlement-sentinel">Settlement Sentinel ↗</a></h3>
+<strong>Governed payment investigation</strong>
+<p>Retrieves evidence, analyzes settlement cases, validates policy remotely, and proposes bounded adjustments with explicit controls.</p>
+<code>Python</code> <code>Google ADK</code> <code>Gemini</code> <code>MCP</code> <code>FastAPI</code>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/aniket-deshkar/Custom_Agentic_RAG">Custom Agentic RAG ↗</a></h3>
+<strong>Retrieval evaluation framework</strong>
+<p>A scratch-built framework for comparing vector databases and model backends—making retrieval quality visible, testable, and repeatable.</p>
+<code>Python</code> <code>RAG</code> <code>Embeddings</code> <code>Vector DBs</code> <code>LLMs</code>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/aniket-deshkar/voice-agent">AI Voice Appointment Assistant ↗</a></h3>
+<strong>Production-minded voice automation</strong>
+<p>Outbound appointment confirmation, cancellation, rescheduling, and human escalation with validated state changes and safe webhook handling.</p>
+<code>Vapi</code> <code>Twilio</code> <code>FastAPI</code> <code>Groq</code> <code>Langfuse</code>
+</td>
+</tr>
+</table>
+
+<br />
+
+<img src="./assets/section-divider.svg" width="100%" alt="" />
+
+## `04` Toolkit
+
+| Layer | Technologies |
+|---|---|
+| **Languages** | `Java 8 / 11 / 17 / 21` · `Python 3.12` · `TypeScript` · `JavaScript` · `SQL` |
+| **AI systems** | `LangGraph` · `LangChain` · `LlamaIndex` · `MCP` · `RAG` · `RAGAS` · `Human-in-the-loop` |
+| **Backend** | `Spring Boot` · `FastAPI` · `REST / OpenAPI` · `GraphQL` · `Kafka` · `Celery` · `Redis` |
+| **Data** | `PostgreSQL` · `pgvector` · `Qdrant` · `MongoDB` · `DynamoDB` · `Elasticsearch` |
+| **Operations** | `AWS` · `Docker` · `GitHub Actions` · `OpenTelemetry` · `Prometheus` · `Grafana` |
+
+<br />
+
+<img src="./assets/section-divider.svg" width="100%" alt="" />
+
+## `05` Credentials
+
+- **AWS Certified AI Practitioner** — AIF-C01
+- **Microsoft Certified: Azure Fundamentals** — AZ-900
+- **B.E., Electronics & Telecommunication Engineering** — RTM Nagpur University
+- **Diploma, Electronics & Telecommunication** — MSBTE
+
+<br />
+
+<div align="center">
+
+### Useful. Governed. Dependable.
+
+I am always interested in hard problems where AI capability and production
+discipline have to coexist.
+
+[**Explore my repositories →**](https://github.com/aniket-deshkar?tab=repositories)&nbsp;&nbsp;·&nbsp;&nbsp;[**Start a conversation →**](mailto:aniket.deshkar@proton.me)
+
+<sub>Designed as an engineering profile—not a list of technologies.</sub>
+
+</div>
