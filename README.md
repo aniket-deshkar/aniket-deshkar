@@ -1,103 +1,62 @@
-<p align="center">
-  <img src="./assets/profile-header.svg" width="100%" alt="Aniket Deshkar — Software engineering. Turning ideas into working software." />
-</p>
+# Hi, I'm Aniket 👋
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/aniket-deshkar"><strong>Connect</strong></a>
-  &nbsp;&nbsp; / &nbsp;&nbsp;
-  <a href="#a-few-things-ive-built"><strong>Explore my work</strong></a>
-  &nbsp;&nbsp; / &nbsp;&nbsp;
-  <a href="https://github.com/aniket-deshkar?tab=repositories"><strong>All repositories</strong></a>
-</p>
+**Forward-Deployed / Applied AI Engineer** — I turn ambiguous enterprise
+workflows into governed AI systems, combining agentic orchestration with
+reliable backend engineering.
 
-### Hi, I’m Aniket.
+📍 India · 4.5+ years across enterprise AI, cross-border payments, healthcare
+supply chains, and regulated software
 
-I’m a software engineer, currently working as an Assistant Lead AI Engineer. I enjoy taking a problem from an early idea to something people can use: figuring out the design, building it, and working through the details that make it reliable.
+[![GitHub](https://img.shields.io/badge/GitHub-aniket--deshkar-181717?logo=github)](https://github.com/aniket-deshkar)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-aniket--deshkar-0A66C2?logo=linkedin)](https://linkedin.com/in/aniket-deshkar)
+[![Email](https://img.shields.io/badge/Email-aniket.deshkar%40proton.me-6D4AFF?logo=protonmail)](mailto:aniket.deshkar@proton.me)
 
-My background spans backend development, AI applications, and cloud systems. I like working across those boundaries, learning unfamiliar tools when the problem calls for them, and understanding how the pieces fit together.
+---
 
-This is where I build out ideas and put design decisions into practice. You’ll find applications, libraries, and experiments, with code and notes on how they work.
+### 🔧 What I work on
 
-<img src="./assets/section-divider.svg" width="100%" height="24" alt="" />
+- **Agentic systems** — stateful multi-step agents with narrow tool contracts,
+  deterministic policy checks, and human approval before consequential actions
+- **Retrieval & evaluation** — retrieval pipelines measured rather than assumed:
+  embedding and vector-store comparison, evaluation harnesses, regression checks
+- **Backend platforms** — high-throughput services with idempotency,
+  outbox/inbox messaging, caching strategy, and load shedding built in
+- **Reliability & observability** — traces, metrics, and replayable execution
+  records so production behavior stays explainable
+- **Regulated domains** — auditability-first systems with append-only evidence
+  and bounded automation in finance and healthcare workflows
 
-## A few things I’ve built
+### 📌 Pinned work
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/aniket-deshkar/settlement-sentinel">Settlement Sentinel</a></h3>
-<p>An investigation workflow that gathers evidence, consults another agent, and asks a person to review the result. Uses synthetic settlement data and a simulated ledger.</p>
-<p><sub>Multi-agent workflows · Human review · Tracing</sub></p>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/aniket-deshkar/enterprise-agentic-operations-platform">DecisionOps AI</a></h3>
-<p>An ongoing platform project exploring how services, policies, approvals, and events fit together across business workflows. Implemented slices and remaining work are documented.</p>
-<p><sub>Service design · Event processing · Audit history</sub></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/aniket-deshkar/spring-ai-governance">Spring AI Governance</a></h3>
-<p>A library that checks permissions and approval requirements before an AI tool runs. Rejected or pending requests cannot execute the underlying action.</p>
-<p><sub>Authorization · Tool execution · Policy checks</sub></p>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/aniket-deshkar/java-mcp-gateway">Java MCP Gateway</a></h3>
-<p>A shared entry point for tools from multiple MCP server adapters, with explicit access rules, quotas, health checks, and tracing.</p>
-<p><sub>Tool discovery · Routing · Access control</sub></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/aniket-deshkar/voice-agent">Voice Appointment Assistant</a></h3>
-<p>A voice application for appointment reminders and follow-up requests. The backend validates changes and handles duplicate provider events.</p>
-<p><sub>Voice interfaces · APIs · State management</sub></p>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/aniket-deshkar/interview-prep-platform-api">CareerForge</a></h3>
-<p>A backend for interview preparation and application tracking, with retrieval and background jobs. Resume processing and provider integrations are still in progress.</p>
-<p><sub>Application development · Retrieval · Background jobs</sub></p>
-</td>
-</tr>
-</table>
+| Project                                                                                    | What it does                                                                                                                           |
+| ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
+| [DecisionOps AI](https://github.com/aniket-deshkar/enterprise-agentic-operations-platform) | Multi-domain decision operations: policy-controlled AI tools, human approval gates, tenant-aware authorization, durable audit evidence |
+| [Settlement Sentinel](https://github.com/aniket-deshkar/settlement-sentinel)               | Synthetic settlement investigation with evidence retrieval, remote policy validation, and bounded adjustments                          |
+| [Custom Agentic RAG](https://github.com/aniket-deshkar/Custom_Agentic_RAG)                 | Scratch-built framework for comparing vector databases and model backends in agentic retrieval                                         |
+| [AI Voice Appointment Assistant](https://github.com/aniket-deshkar/voice-agent)            | Outbound voice-agent platform for appointment flows with validated state changes and safe webhook handling                             |
+| [Java MCP Gateway](https://github.com/aniket-deshkar/java-mcp-gateway)                     | Controlled discovery, policy enforcement, and routing across MCP servers from one Java gateway                                         |
+| [Agent Policy Engine](https://github.com/aniket-deshkar/agent-policy-engine)               | Deterministic local authorization and approval enforcement for agent tool calls                                                        |
+| [Spring AI Durable Runtime](https://github.com/aniket-deshkar/spring-ai-durable-runtime)   | Checkpoint, pause, resume, and recover long-running Java AI workflows                                                                  |
+| [Agent Run Replay](https://github.com/aniket-deshkar/agent-run-replay)                     | Record, inspect, diff, and deterministically replay agent executions                                                                   |
+| [Agent Contract Test](https://github.com/aniket-deshkar/agent-contract-test)               | Framework-neutral contract and regression testing for agents and their tools                                                           |
+| [Spring Outbox Inbox](https://github.com/aniket-deshkar/spring-outbox-inbox)               | Reliable event publication and duplicate-safe consumption for Spring services                                                          |
+| [Spring Load Shedding](https://github.com/aniket-deshkar/spring-load-shedding)             | Per-route admission control, bounded queues, and overload metrics for Spring                                                           |
+| [Agent Memory Lifecycle](https://github.com/aniket-deshkar/agent-memory-lifecycle)         | Scoped SQLite persistence, expiry, deduplication, and retrieval budgets for agent memory                                               |
 
-<p align="right"><a href="https://github.com/aniket-deshkar?tab=repositories">Browse the rest →</a></p>
+### 🧰 Toolkit
 
-<img src="./assets/section-divider.svg" width="100%" height="24" alt="" />
+`Java 8/11/17/21` `Python 3.12` `TypeScript` `SQL` · `LangGraph` `LangChain`
+`LlamaIndex` `MCP` `RAG` `RAGAS` · `Spring Boot` `FastAPI` `Kafka` `Celery`
+`Redis` · `PostgreSQL` `pgvector` `Qdrant` `MongoDB` `DynamoDB`
+`Elasticsearch` · `AWS` `Docker` `GitHub Actions` `OpenTelemetry` `Prometheus`
+`Grafana` · `React` `Next.js` `Angular`
 
-## How I work
+### 🎓 Credentials
 
-I start by understanding the problem and the constraints. I care about clear interfaces, readable code, and tests that cover what happens when things fail. I’d rather make a small version work end to end, then expand it with evidence from using it.
-
-<details>
-<summary><strong>Tools and experience</strong></summary>
-
-<br />
-
-These are tools I’ve worked with across different projects:
-
-| | |
-| --- | --- |
-| Languages & frameworks | Java, Python, Spring Boot, FastAPI |
-| AI applications | LangGraph, LangChain, MCP, Amazon Bedrock, Google ADK, Gemini |
-| Data & messaging | PostgreSQL, MongoDB, Redis, Kafka |
-| Cloud & operations | AWS, Azure, OpenTelemetry, Langfuse, Prometheus, Grafana |
-
-</details>
-
-<details>
-<summary><strong>Certifications</strong></summary>
-
-<br />
-
-- AWS Certified Cloud Practitioner
-- AWS Certified AI Practitioner
 - Microsoft Certified: Azure Fundamentals (AZ-900)
+- AWS Certified AI Practitioner (AIF-C01)
+- B.E., Electronics & Telecommunication Engineering — RTM Nagpur University
 
-</details>
+---
 
-<img src="./assets/section-divider.svg" width="100%" height="24" alt="" />
-
-### Always happy to meet people building interesting things.
-
-Open to exchanging ideas, collaborating, or learning something new. [Say hello on LinkedIn →](https://www.linkedin.com/in/aniket-deshkar)
+📬 Reach me at [aniket.deshkar@proton.me](mailto:aniket.deshkar@proton.me)
