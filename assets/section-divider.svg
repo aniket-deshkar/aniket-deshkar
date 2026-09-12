@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="24" viewBox="0 0 960 24" role="img" aria-label="Animated section divider">
-<style>
-.track { stroke-dasharray: 36 924; animation: drift 16s linear infinite; }
-@keyframes drift { to { stroke-dashoffset: -960; } }
-@media (prefers-reduced-motion: reduce) { .track { animation: none; } }
-</style>
-<path d="M0 12 H960" stroke="#88baff" stroke-opacity=".2"/>
-<path class="track" d="M0 12 H960" stroke="#72e4cd" stroke-width="2" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="24" viewBox="0 0 1200 24" role="img" aria-label="Animated section divider">
+  <style>
+    .track { stroke-dasharray:48 1152; animation:drift 16s linear infinite; }
+    @keyframes drift { to { stroke-dashoffset:-1200; } }
+    @media (prefers-reduced-motion: reduce) { .track { animation:none; } }
+  </style>
+  <path d="M0 12H1200" stroke="#30363d"/>
+  <path class="track" d="M0 12H1200" stroke="#58a6ff" stroke-width="2" stroke-linecap="round"/>
 </svg>
