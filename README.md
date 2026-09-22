@@ -53,25 +53,47 @@ actions, durable audit evidence, and observability that explains failures.
 <table>
 <tr>
 <td width="50%" valign="top">
+<h3><a href="https://github.com/aniket-deshkar/ReleaseLens">ReleaseLens ↗</a></h3>
+<strong>Evidence-backed release risk</strong>
+<p>Analyzes Git changes before merge or deployment, tying release-risk findings to source evidence, impact paths, and deterministic policy decisions.</p>
+<code>Java</code> <code>Spring Boot</code> <code>JGit</code> <code>Flyway</code> <code>Next.js</code>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/aniket-deshkar/paytrace">PayTrace ↗</a></h3>
+<strong>Payment incident investigation</strong>
+<p>Reconstructs payment incidents from provider events, webhooks, ledger entries, and settlement evidence to recommend safe recovery steps.</p>
+<code>Java 21</code> <code>Spring Boot</code> <code>Flyway</code> <code>Next.js</code>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/aniket-deshkar/payment-failure-rca-agent">Payment Failure RCA Agent ↗</a></h3>
+<strong>Evidence-led payment diagnosis</strong>
+<p>Ranks payment-failure hypotheses from deployment, latency, error-rate, and provider evidence, with human review of the assessment.</p>
+<code>Python</code> <code>FastAPI</code> <code>LangGraph</code> <code>SQLAlchemy</code>
+</td>
+<td width="50%" valign="top">
 <h3><a href="https://github.com/aniket-deshkar/enterprise-agentic-operations-platform">DecisionOps AI ↗</a></h3>
 <strong>Enterprise agentic operations</strong>
 <p>Policy-controlled AI tools, approval gates, tenant-aware authorization, and durable audit evidence—designed for decisions that must remain explainable.</p>
 <code>Java 21</code> <code>Spring Boot</code> <code>LangGraph</code> <code>Kafka</code> <code>Qdrant</code> <code>OPA</code>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/aniket-deshkar/settlement-sentinel">Settlement Sentinel ↗</a></h3>
 <strong>Governed payment investigation</strong>
 <p>Retrieves evidence, analyzes settlement cases, validates policy remotely, and proposes bounded adjustments with explicit controls.</p>
 <code>Python</code> <code>Google ADK</code> <code>Gemini</code> <code>MCP</code> <code>FastAPI</code>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/aniket-deshkar/Custom_Agentic_RAG">Custom Agentic RAG ↗</a></h3>
 <strong>Retrieval evaluation framework</strong>
 <p>A scratch-built framework for comparing vector databases and model backends—making retrieval quality visible, testable, and repeatable.</p>
 <code>Python</code> <code>RAG</code> <code>Embeddings</code> <code>Vector DBs</code> <code>LLMs</code>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/aniket-deshkar/voice-agent">AI Voice Appointment Assistant ↗</a></h3>
 <strong>Production-minded voice automation</strong>

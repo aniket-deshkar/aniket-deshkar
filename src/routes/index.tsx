@@ -26,6 +26,30 @@ export const Route = createFileRoute("/")({
 
 const projects = [
   {
+    name: "ReleaseLens",
+    href: "https://github.com/aniket-deshkar/ReleaseLens",
+    type: "Evidence-backed release risk",
+    description: "Analyzes Git changes before merge or deployment with source-linked findings, impact paths, and deterministic policy decisions.",
+    tags: ["Java", "Spring Boot", "JGit", "Flyway", "Next.js"],
+    color: "bg-signal-orange",
+  },
+  {
+    name: "PayTrace",
+    href: "https://github.com/aniket-deshkar/paytrace",
+    type: "Payment incident investigation",
+    description: "Reconstructs payment incidents across provider events, webhooks, ledgers, and settlement evidence to recommend safe recovery steps.",
+    tags: ["Java 21", "Spring Boot", "Flyway", "Next.js"],
+    color: "bg-signal-green",
+  },
+  {
+    name: "Payment Failure RCA Agent",
+    href: "https://github.com/aniket-deshkar/payment-failure-rca-agent",
+    type: "Evidence-led payment diagnosis",
+    description: "Ranks payment-failure hypotheses from deployment, latency, error-rate, and provider evidence with human review.",
+    tags: ["Python", "FastAPI", "LangGraph", "SQLAlchemy"],
+    color: "bg-signal-blue",
+  },
+  {
     name: "DecisionOps AI",
     href: "https://github.com/aniket-deshkar/enterprise-agentic-operations-platform",
     type: "Enterprise agentic operations",
