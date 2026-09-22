@@ -4,7 +4,7 @@
 
 <br />
 
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-View_my_work-0d1117?style=for-the-badge&logo=lovable&logoColor=58a6ff)](https://aniket-deshkar.lovable.app)
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-View_my_work-0d1117?style=for-the-badge&logo=vercel&logoColor=58a6ff)](https://aniket-deshkar.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-aniket--deshkar-0d1117?style=for-the-badge&logo=linkedin&logoColor=58a6ff)](https://linkedin.com/in/aniket-deshkar)
 [![Email](https://img.shields.io/badge/Email-Let's_talk-0d1117?style=for-the-badge&logo=protonmail&logoColor=bc8cff)](mailto:aniket.deshkar@proton.me)
 
