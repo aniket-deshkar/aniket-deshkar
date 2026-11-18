@@ -53,7 +53,21 @@ actions, durable audit evidence, and observability that explains failures.
 <table>
 <tr>
 <td width="50%" valign="top">
+<h3><a href="https://github.com/aniket-deshkar/finance-atlas">Finance Atlas ↗</a></h3>
+<strong>Encrypted personal finance workspace</strong>
+<p>A local-first finance platform for transactions, cards, bills, EMIs, budgets, reconciliation, reports, and investment tracking—with optional encrypted cloud sync and AI-assisted reviews.</p>
+<code>Next.js</code> <code>TypeScript</code> <code>Python</code> <code>Google ADK</code> <code>Vertex AI</code> <code>Firebase</code> <code>Cloud Run</code> <code>Firestore</code>
+</td>
+<td width="50%" valign="top">
 <h3><a href="https://github.com/aniket-deshkar/ReleaseLens">ReleaseLens ↗</a></h3>
+<strong>Evidence-backed release risk</strong>
+<p>Analyzes Git changes before merge or deployment, tying release-risk findings to source evidence, impact paths, and deterministic policy decisions.</p>
+<code>Java</code> <code>Spring Boot</code> <code>JGit</code> <code>Flyway</code> <code>Next.js</code>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/aniket-deshkar/paytrace">PayTrace ↗</a></h3>
 <strong>Evidence-backed release risk</strong>
 <p>Analyzes Git changes before merge or deployment, tying release-risk findings to source evidence, impact paths, and deterministic policy decisions.</p>
 <code>Java</code> <code>Spring Boot</code> <code>JGit</code> <code>Flyway</code> <code>Next.js</code>
